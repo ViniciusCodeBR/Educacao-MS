@@ -1,0 +1,152 @@
+{
+  "arquivos": [
+    {
+      "ano": 2018,
+      "registros": 485,
+      "sha256": "cebea0e0943f7332fa2beb2dd2c309c7fa9198ec7c5bdfd4f061e2a038ac27f9",
+      "totais": {
+        "MatriculasTotal": 326367,
+        "MatriculaInicial": 289030,
+        "MatriculaAposCenso": 37337,
+        "Transferidos": 51430,
+        "Cancelados": 10121,
+        "Falecido": 74,
+        "Abandono": 10490,
+        "Aprovados": 211088,
+        "Reprovados": 37938,
+        "Cursando": 369,
+        "OutrasSituacoes": 4857
+      }
+    },
+    {
+      "ano": 2019,
+      "registros": 475,
+      "sha256": "d9b4ba8f16c310ebb7155cf9db06d4234444db659e22fa054814833db38a92a8",
+      "totais": {
+        "MatriculasTotal": 293195,
+        "MatriculaInicial": 263717,
+        "MatriculaAposCenso": 29478,
+        "Transferidos": 48586,
+        "Cancelados": 7877,
+        "Falecido": 78,
+        "Abandono": 158,
+        "Aprovados": 196248,
+        "Reprovados": 29998,
+        "Cursando": 100,
+        "OutrasSituacoes": 10150
+      }
+    },
+    {
+      "ano": 2020,
+      "registros": 441,
+      "sha256": "60fec8fb8c2f82da81a5175929cca1cbb3be40464bd02a9d062d614d1c100dae",
+      "totais": {
+        "MatriculasTotal": 242028,
+        "MatriculaInicial": 227922,
+        "MatriculaAposCenso": 14106,
+        "Transferidos": 13342,
+        "Cancelados": 8508,
+        "Falecido": 79,
+        "Abandono": 0,
+        "Aprovados": 194168,
+        "Reprovados": 23107,
+        "Cursando": 179,
+        "OutrasSituacoes": 2645
+      }
+    },
+    {
+      "ano": 2021,
+      "registros": 442,
+      "sha256": "2fef7ac03eb54625b8b44e69ba5acccbd79077b684a6d58a1f465d6c9c07457c",
+      "totais": {
+        "MatriculasTotal": 248780,
+        "MatriculaInicial": 219697,
+        "MatriculaAposCenso": 29083,
+        "Transferidos": 28746,
+        "Cancelados": 6673,
+        "Falecido": 83,
+        "Abandono": 0,
+        "Aprovados": 185793,
+        "Reprovados": 24262,
+        "Cursando": 51,
+        "OutrasSituacoes": 3172
+      }
+    },
+    {
+      "ano": 2022,
+      "registros": 472,
+      "sha256": "a950a5307956428fd8f55c95ee0f98ab3de6ac80dd2965bec06cb355baa0ecfd",
+      "totais": {
+        "MatriculasTotal": 247646,
+        "MatriculaInicial": 220696,
+        "MatriculaAposCenso": 26950,
+        "Transferidos": 41115,
+        "Cancelados": 7596,
+        "Falecido": 80,
+        "Abandono": 0,
+        "Aprovados": 169167,
+        "Reprovados": 22982,
+        "Cursando": 93,
+        "OutrasSituacoes": 6613
+      }
+    },
+    {
+      "ano": 2023,
+      "registros": 467,
+      "sha256": "835483693014a6d6572c6227d7e388e04739488b51794904feca2ed801d4c8a5",
+      "totais": {
+        "MatriculasTotal": 237574,
+        "MatriculaInicial": 214103,
+        "MatriculaAposCenso": 23471,
+        "Transferidos": 39537,
+        "Cancelados": 7159,
+        "Falecido": 71,
+        "Abandono": 0,
+        "Aprovados": 166921,
+        "Reprovados": 21304,
+        "Cursando": 412,
+        "OutrasSituacoes": 2170
+      }
+    },
+    {
+      "ano": 2024,
+      "registros": 461,
+      "sha256": "a0be18c622f9dbfdb7cff86952539ae3e05eebedb66555704d46d6e21e701fb0",
+      "totais": {
+        "MatriculasTotal": 220926,
+        "MatriculaInicial": 210566,
+        "MatriculaAposCenso": 10360,
+        "Transferidos": 24900,
+        "Cancelados": 5580,
+        "Falecido": 43,
+        "Abandono": 0,
+        "Aprovados": 3484,
+        "Reprovados": 1031,
+        "Cursando": 184949,
+        "OutrasSituacoes": 939
+      }
+    },
+    {
+      "ano": 2026,
+      "registros": 460,
+      "sha256": "977f5ad161137433d9a3bf75f871ea9c5be7e8ba944a2d9c43666fbd3d5fbdb7",
+      "totais": {
+        "MatriculasTotal": 199489,
+        "MatriculaInicial": 199489,
+        "MatriculaAposCenso": 0,
+        "Transferidos": 7281,
+        "Cancelados": 3347,
+        "Falecido": 15,
+        "Abandono": 0,
+        "Aprovados": 0,
+        "Reprovados": 0,
+        "Cursando": 187470,
+        "OutrasSituacoes": 1376
+      }
+    }
+  ],
+  "anos_ausentes": [
+    2025
+  ],
+  "total_registros": 3703
+}

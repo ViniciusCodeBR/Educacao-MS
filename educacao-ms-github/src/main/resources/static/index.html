@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Matrículas escolares — MS</title><link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header><div class="container"><p class="disciplina">DAC · ODS 4 — Educação de qualidade</p><h1>Matrículas escolares em MS</h1><p>Consulta dos dados da rede pública por município e ano.</p></div></header>
+  <main class="container">
+    <section class="painel" aria-labelledby="titulo-filtros">
+      <h2 id="titulo-filtros">Consultar dados</h2>
+      <form id="filtros">
+        <div><label for="municipio">Município</label><select id="municipio" disabled><option value="">Todos os municípios</option></select></div>
+        <div><label for="ano">Ano</label><select id="ano" disabled><option value="">Todos os anos</option></select></div>
+        <button id="consultar" disabled>Consultar</button><button type="button" id="limpar" class="secundario" disabled>Limpar filtros</button>
+      </form>
+      <p id="status" role="status" aria-live="polite">Carregando opções de consulta...</p>
+      <button type="button" id="tentar" class="secundario" hidden>Tentar novamente</button>
+    </section>
+    <div id="resultados" hidden>
+      <p id="recorte" class="recorte"></p>
+      <section class="indicadores" aria-label="Resumo da consulta">
+        <article><h2>Matrículas</h2><strong id="matriculas">—</strong><p>Total no recorte</p></article>
+        <article><h2>Aprovados</h2><strong id="aprovados">—</strong><p id="taxa-aprovados">—</p></article>
+        <article><h2>Reprovados</h2><strong id="reprovados">—</strong><p>Quantidade registrada</p></article>
+        <article><h2>Abandono</h2><strong id="abandono">—</strong><p id="taxa-abandono">—</p></article>
+      </section>
+      <section class="painel">
+        <h2>Aprovação e abandono ao longo dos anos</h2>
+        <p class="ajuda">Percentual sobre as matrículas. O gráfico mantém todos os anos do município selecionado.</p>
+        <div class="legenda"><span><i class="azul"></i>Aprovados</span><span><i class="laranja"></i>Abandono</span></div>
+        <div id="grafico" class="grafico" aria-label="Gráfico histórico"></div>
+        <p class="ajuda">2025 não tem arquivo disponível. Os percentuais são descritivos e não equivalem às taxas oficiais de rendimento.</p>
+      </section>
+      <section class="painel">
+        <h2>Dados por escola</h2><p id="total-linhas" class="ajuda"></p>
+        <div class="rolagem"><table><caption class="sr-only">Registros das escolas no recorte selecionado</caption><thead><tr><th scope="col">Ano</th><th scope="col">Município</th><th scope="col">Escola</th><th scope="col">Matrículas</th><th scope="col">Aprovados</th><th scope="col">Reprovados</th><th scope="col">Abandono</th><th scope="col">Cursando</th></tr></thead><tbody id="linhas"></tbody></table></div>
+        <div class="paginacao"><button id="anterior" class="secundario" type="button">Anterior</button><span id="pagina" aria-live="polite"></span><button id="proxima" class="secundario" type="button">Próxima</button></div>
+      </section>
+    </div>
+    <section class="painel notas"><h2>Sobre os dados</h2><p>Arquivos disponíveis: 2018 a 2024 e 2026. Os resultados de 2024 e 2026 podem não estar consolidados. Um zero na base não comprova ausência real de eventos.</p><p>Percentual = quantidade da situação ÷ total de matrículas × 100. Transferências e cancelamentos não são contados como abandono. Ao somar anos, o total não representa alunos únicos.</p><p>Fonte: <a href="https://www.dados.ms.gov.br/dataset/matriculas-por-unidade-escolar" target="_blank" rel="noopener">Portal de Dados Abertos de Mato Grosso do Sul</a>.</p></section>
+  </main>
+  <footer class="container">Projeto acadêmico · Python, PostgreSQL e Java</footer>
+</body>
+</html>
