@@ -1,0 +1,6 @@
+target
+aplicacao
+__pycache__
+.git
+.env
+*.zip
