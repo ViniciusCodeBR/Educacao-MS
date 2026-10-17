@@ -3,7 +3,7 @@ services:
   - type: web
     name: educacao-ms-dac
     runtime: docker
-     rootDir: educacao-ms-github
+    rootDir: educacao-ms-github
     plan: free
     region: oregon
     healthCheckPath: /api/filtros
